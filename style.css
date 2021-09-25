@@ -94,7 +94,10 @@ main a{
         text-align: left;
     }
     main a{
-        display: block;;
+        display: block;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #00CDAC;
     }
 }
 
@@ -106,5 +109,20 @@ main a{
 
     header h2{
         flex: 1.5;
+        font-size:1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 472px) {
+
+    header h2{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    ul a{
+        font-size: 0.7rem;
+        font-weight: 200;
     }
 }
